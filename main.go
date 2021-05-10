@@ -15,7 +15,7 @@ var (
 )
 
 func main() {
-	daemon.Make("-s", "httpdaemon", "simple http daemon service").Run(serve)
+	daemon.Make("-s", "healthy", "simple http daemon service").Run(serve)
 }
 
 func serve() {
